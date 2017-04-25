@@ -4,7 +4,6 @@
             "https://lists.open-o.org/pipermail/openo-client/",
             "https://lists.open-o.org/pipermail/openo-common-services/",
             "https://lists.open-o.org/pipermail/openo-common-tosca/",
-            "https://lists.open-o.org/pipermail/openo-discuss/",
             "https://lists.open-o.org/pipermail/openo-gso/",
             "https://lists.open-o.org/pipermail/openo-gvnfm/",
             "https://lists.open-o.org/pipermail/openo-holmes/",
@@ -15,8 +14,9 @@
             "https://lists.open-o.org/pipermail/openo-policy/",
             "https://lists.open-o.org/pipermail/openo-sdnhubdriver/",
             "https://lists.open-o.org/pipermail/openo-sdno/",
-            "https://lists.open-o.org/pipermail/openo-tsc/",
-            "https://lists.open-o.org/pipermail/openo-vnfsdk/"
+            "https://lists.open-o.org/pipermail/openo-vnfsdk/",
+            "https://lists.open-o.org/pipermail/openo-discuss/",
+            "https://lists.open-o.org/pipermail/openo-tsc/"
         ],
         "gerrit": [
             "gerrit.open-o.org"
@@ -31,7 +31,6 @@
             "https://jira.open-o.org"
         ],
         "git": [
-            "https://gerrit.open-o.org/r/ci-management",
             "https://gerrit.open-o.org/r/client-cli",
             "https://gerrit.open-o.org/r/client-gui",
             "https://gerrit.open-o.org/r/common-services-auth",
@@ -52,13 +51,13 @@
             "https://gerrit.open-o.org/r/holmes-engine-management",
             "https://gerrit.open-o.org/r/holmes-rule-management",
             "https://gerrit.open-o.org/r/integration",
+            "https://gerrit.open-o.org/r/oparent",
             "https://gerrit.open-o.org/r/modelling-csar",
             "https://gerrit.open-o.org/r/modelling-specs",
             "https://gerrit.open-o.org/r/multivimdriver-broker",
             "https://gerrit.open-o.org/r/multivimdriver-openstack",
             "https://gerrit.open-o.org/r/multivimdriver-vmware-vio",
             "https://gerrit.open-o.org/r/nfvo",
-            "https://gerrit.open-o.org/r/oparent",
             "https://gerrit.open-o.org/r/policy-designer",
             "https://gerrit.open-o.org/r/policy-engine",
             "https://gerrit.open-o.org/r/policy-lcm",
