@@ -1,23 +1,5 @@
 {
-    "Open-O": {
-        "pipermail": [
-            "https://lists.open-o.org/pipermail/openo-client/",
-            "https://lists.open-o.org/pipermail/openo-common-services/",
-            "https://lists.open-o.org/pipermail/openo-common-tosca/",
-            "https://lists.open-o.org/pipermail/openo-gso/",
-            "https://lists.open-o.org/pipermail/openo-gvnfm/",
-            "https://lists.open-o.org/pipermail/openo-holmes/",
-            "https://lists.open-o.org/pipermail/openo-integration/",
-            "https://lists.open-o.org/pipermail/openo-modelling/",
-            "https://lists.open-o.org/pipermail/openo-multivim/",
-            "https://lists.open-o.org/pipermail/openo-nfvo/",
-            "https://lists.open-o.org/pipermail/openo-policy/",
-            "https://lists.open-o.org/pipermail/openo-sdnhubdriver/",
-            "https://lists.open-o.org/pipermail/openo-sdno/",
-            "https://lists.open-o.org/pipermail/openo-vnfsdk/",
-            "https://lists.open-o.org/pipermail/openo-discuss/",
-            "https://lists.open-o.org/pipermail/openo-tsc/"
-        ],
+    "unknown":{
         "gerrit": [
             "gerrit.open-o.org"
         ],
@@ -30,43 +12,172 @@
         "jira": [
             "https://jira.open-o.org"
         ],
+        "meta": {
+            "title": "unknown"
+        }
+    },
+    "Client": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-client/"
+        ],
         "git": [
             "https://gerrit.open-o.org/r/client-cli",
-            "https://gerrit.open-o.org/r/client-gui",
+            "https://gerrit.open-o.org/r/client-gui"
+
+        ],
+        "meta": {
+            "title": "client"
+        }
+    },
+    "Common Services": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-common-services/"
+        ],
+        "git": [
             "https://gerrit.open-o.org/r/common-services-auth",
             "https://gerrit.open-o.org/r/common-services-common-utilities",
             "https://gerrit.open-o.org/r/common-services-driver-mgr",
             "https://gerrit.open-o.org/r/common-services-external-system-registration",
             "https://gerrit.open-o.org/r/common-services-microservice-bus",
-            "https://gerrit.open-o.org/r/common-services-protocol-stack",
+            "https://gerrit.open-o.org/r/common-services-protocol-stack"
+        ],
+        "meta": {
+            "title": "common-services"
+        }
+    },
+    "Common Tosca": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-common-tosca/"
+         ],
+        "git": [
             "https://gerrit.open-o.org/r/common-tosca-aria",
             "https://gerrit.open-o.org/r/common-tosca-catalog",
             "https://gerrit.open-o.org/r/common-tosca-inventory",
-            "https://gerrit.open-o.org/r/common-tosca-model-designer",
-            "https://gerrit.open-o.org/r/gso",
+            "https://gerrit.open-o.org/r/common-tosca-model-designer"
+         ],
+        "meta": {
+            "title": "common-tosca"
+        }
+    },
+    "GSO": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-gso/"
+         ],
+        "git": [
+            "https://gerrit.open-o.org/r/gso"
+        ],
+        "meta": {
+            "title": "gso"
+        }
+    },
+    "GVNFM": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-gvnfm/"
+        ],
+        "git": [
             "https://gerrit.open-o.org/r/gvnfm-vnflcm",
             "https://gerrit.open-o.org/r/gvnfm-vnfmgr",
-            "https://gerrit.open-o.org/r/gvnfm-vnfres",
+            "https://gerrit.open-o.org/r/gvnfm-vnfres"
+        ],
+        "meta": {
+            "title": "gvnfm"
+        }
+    },
+    "Holmes": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-holmes/"
+        ],
+        "git": [
             "https://gerrit.open-o.org/r/holmes-actions",
             "https://gerrit.open-o.org/r/holmes-engine-management",
-            "https://gerrit.open-o.org/r/holmes-rule-management",
+            "https://gerrit.open-o.org/r/holmes-rule-management"
+        ],
+        "meta": {
+            "title": "holmes"
+        }
+    },
+    "Integration": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-integration/"
+        ],
+        "git": [
             "https://gerrit.open-o.org/r/integration",
-            "https://gerrit.open-o.org/r/oparent",
+            "https://gerrit.open-o.org/r/oparent"
+        ],
+        "meta": {
+            "title": "integration"
+        }
+    },
+    "Modelling": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-modelling/"
+        ],
+        "git": [
             "https://gerrit.open-o.org/r/modelling-csar",
-            "https://gerrit.open-o.org/r/modelling-specs",
+            "https://gerrit.open-o.org/r/modelling-specs"
+        ],
+        "meta": {
+            "title": "modelling"
+        }
+    },
+    "Multivim": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-multivim/"
+        ],
+        "git": [
             "https://gerrit.open-o.org/r/multivimdriver-broker",
             "https://gerrit.open-o.org/r/multivimdriver-openstack",
-            "https://gerrit.open-o.org/r/multivimdriver-vmware-vio",
-            "https://gerrit.open-o.org/r/nfvo",
+            "https://gerrit.open-o.org/r/multivimdriver-vmware-vio"
+        ],
+        "meta": {
+            "title": "multivim"
+        }
+    },
+    "NFVO": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-nfvo/"
+        ],
+        "git": [
+            "https://gerrit.open-o.org/r/nfvo"
+        ],
+        "meta": {
+            "title": "nfvo"
+        }
+    },
+    "Policy": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-policy/"
+        ],
+        "git": [
             "https://gerrit.open-o.org/r/policy-designer",
             "https://gerrit.open-o.org/r/policy-engine",
-            "https://gerrit.open-o.org/r/policy-lcm",
+            "https://gerrit.open-o.org/r/policy-lcm"
+        ],
+        "meta": {
+            "title": "policy"
+        }
+    },
+    "SDN Hub Driver": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-sdnhubdriver/"
+        ],
+        "git": [
             "https://gerrit.open-o.org/r/sdnhub-driver-ct-te",
             "https://gerrit.open-o.org/r/sdnhub-driver-huawei-l3vpn",
             "https://gerrit.open-o.org/r/sdnhub-driver-huawei-openstack",
             "https://gerrit.open-o.org/r/sdnhub-driver-huawei-overlay",
             "https://gerrit.open-o.org/r/sdnhub-driver-huawei-servicechain",
-            "https://gerrit.open-o.org/r/sdnhub-driver-zte-sptn",
+            "https://gerrit.open-o.org/r/sdnhub-driver-zte-sptn"
+        ],
+        "meta": {
+            "title": "sdnhub-driver"
+        }
+    },
+    "SDNO": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-sdno/"
+        ],
+        "git": [
             "https://gerrit.open-o.org/r/sdno-brs",
             "https://gerrit.open-o.org/r/sdno-ipsec",
             "https://gerrit.open-o.org/r/sdno-l2vpn",
@@ -82,14 +193,40 @@
             "https://gerrit.open-o.org/r/sdno-utils",
             "https://gerrit.open-o.org/r/sdno-vpc",
             "https://gerrit.open-o.org/r/sdno-vsitemgr",
-            "https://gerrit.open-o.org/r/sdno-vxlan",
+            "https://gerrit.open-o.org/r/sdno-vxlan"
+        ],
+        "meta": {
+            "title": "sdno"
+        }
+    },
+    "VNF SDK": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-vnfsdk/"
+        ],
+        "git": [
             "https://gerrit.open-o.org/r/vnf-sdk-design-pkg",
             "https://gerrit.open-o.org/r/vnf-sdk-function-test",
             "https://gerrit.open-o.org/r/vnf-sdk-marketplace",
             "https://gerrit.open-o.org/r/vnf-sdk-validate-lc-test"
         ],
         "meta": {
-            "title": "open-o"
+            "title": "vnf-sdk"
+        }
+    },
+    "Discuss": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-discuss/"
+        ],
+        "meta": {
+            "title": "discuss"
+        }
+    },
+    "TSC": {
+        "pipermail": [
+            "https://lists.open-o.org/pipermail/openo-tsc/"
+        ],
+        "meta": {
+            "title": "tsc"
         }
     }
 }
